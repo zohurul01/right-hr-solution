@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Right HR Solutions – HR Solutions & Professional Services</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="Zohir">
+    <!-- Favicons -->
+    <link rel="icon" href="assets/img/favicon.svg">
+    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.svg">
+    <!-- Vendor CSS Files -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
+    <!-- Template Main CSS File -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- =======================================================
+    * Template Name: Right HR Solutions - v1.0
+    * Template URL: https://zohirs.com
+    * Author: Zohir
+    ======================================================== -->
+  </head>
+  <body>
+    <!-- Page Content -->
+    <div id="auth-page" class="page">
+      <!-- Header -->
+      <header id="auth-page-header">
+        <div class="container">
+          <div class="auth-logo">
+            <a href="index.html">
+              <img class="img-fluid" src="assets/img/Logo-color.svg" alt="logo">
+            </a>
+          </div>
+        </div>
+        <!-- End header-wrapper -->
+      </header>
+      <!-- End Header -->
+      <!-- Main Body -->
+      <main class="auth-page-wrapper">
+        <!-- Checkuot Section  -->
+        <section id="auth_section">
+          <div class="container">
+            <div class="row g-0 auth-wrapper">
+              <div class="col-md-6">
+                <img class="auth-img" src="assets/img/image/document-notarization.png" alt="Right HR Solutions">
+              </div>
+              <div class="col-md-6">
+                <div class="auth-form-wrapper">
+                  <div class="form-heading text-center">
+                    <h3 class="title">Register</h3>
+                    <h6 class="sub-title">Create Your Account For Free </h6>
+                  </div>
+                  <form method="get" action="/index.html" class="needs-validation" novalidate>
+                    <div class="form-body">
+                      <div class="row g-3">
+                        <div class="col-sm-6">
+                          <input type="text" class="form-control" id="firstName" placeholder="First name" value="" required>
+                          <div class="invalid-feedback">First name is required. </div>
+                        </div>
+                        <div class="col-sm-6">
+                          <input type="text" class="form-control" id="lastName" placeholder="Last name" value="" required>
+                          <div class="invalid-feedback">Last name is required. </div>
+                        </div>
+                        <div class="col-sm-12">
+                          <input type="email" class="form-control" id="emailAddeass" placeholder="Your Email" value="" required>
+                          <div class="invalid-feedback"> Enter a valid email address. </div>
+                        </div>
+                        <div class="col-sm-12">
+                          <input type="tel" class="form-control" id="phoneNumber" placeholder="Phone Number" value="" required>
+                          <div class="invalid-feedback">Enter phone number. </div>
+                        </div>
+                        <div class="col-sm-12">
+                          <input type="password" class="form-control" id="password" placeholder="Password" value="" required>
+                          <div class="invalid-feedback">Enter a strong password. </div>
+                        </div>
+                        <div class="col-sm-6">
+                          <input type="text" class="form-control" id="CompanyName" placeholder="Company Name" value="" required>
+                          <div class="invalid-feedback">Company name is required. </div>
+                        </div>
+                        <div class="col-sm-6">
+                          <input type="text" class="form-control" id="Position" placeholder="Position" value="" required>
+                          <div class="invalid-feedback">Position is required. </div>
+                        </div>
+                        <div class="col-12">
+                          <input type="text" class="form-control" id="address" placeholder="Enter Your Address" value="" required>
+                          <div class="invalid-feedback">Enter your address. </div>
+                        </div>
+                        <div class="col-md-4">
+                          <select class="form-select" id="country" required>
+                            <option value="">United States</option>
+                            <option value="">France</option>
+                            <option value="">Spain</option>
+                            <option value="">United Kingdom</option>
+                          </select>
+                          <div class="invalid-feedback"> Please select a valid country. </div>
+                        </div>
+                        <div class="col-md-4">
+                          <select class="form-select" id="state" required>
+                            <option value="">Florida</option>
+                            <option value="">Alaska</option>
+                            <option value="">California</option>
+                            <option value="">Colorado</option>
+                            <option value="">Delaware</option>
+                          </select>
+                          <div class="invalid-feedback"> Please provide a valid state. </div>
+                        </div>
+                        <div class="col-md-4">
+                          <input type="text" class="form-control" id="zip" placeholder="Zip code" required>
+                          <div class="invalid-feedback"> Zip code required. </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="acceptTermsConditions" required>
+                            <label class="form-check-label" for="acceptTermsConditions">I do accept the <a
+                              href="/terms-conditions.html">Terms and Conditions</a>
+                          </label>
+                            <div class="invalid-feedback">You must accept the terms and conditions. </div>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="btn btn-auth" type="submit" id="submitButton" disabled>Register</button>
+                    </div>
+                  </form>
+                  <div class="form-footer text-center">
+                    <h6 class="note">or continue using</h6>
+                    <ul class="social-auth">
+                      <li class="social-item">
+                        <a href="#">
+                          <i class="bi bi-google"></i>
+                        </a>
+                      </li>
+                      <li class="social-item">
+                        <a href="#">
+                          <i class="bi bi-facebook"></i>
+                        </a>
+                      </li>
+                      <li class="social-item">
+                        <a href="#">
+                          <i class="bi bi-github"></i>
+                        </a>
+                      </li>
+                    </ul>
+                    <p class="form-link">Already have an account?  <a href="/sign-in.html">Login</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End Checkout Section  -->
+      </main>
+      <!-- End Main Body -->
+      <!-- Footer Bottom Section -->
+      <footer id="auth-page-footer" class="d-flex align-items-center justify-center text-center">
+        <div class="container">
+          <div class="row g-3">
+            <div class="col-md-12">
+              <ul class="inline-menu">
+                <li>
+                  <a href="/privacy-policy.html">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="/terms-conditions.html">Terms & Conditions</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-12">
+              <p class="mb-0">© Copyright <span id="year"></span>
+                <a href="/index.html">
+                  <strong>RightHRSolutions</strong>
+                </a> | All Rights Reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- End Footer -->
+    </div>
+    <!-- End Page Content -->
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery-3.7.0.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
