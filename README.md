@@ -4,7 +4,7 @@ Welcome to Right HR Solutions, a platform for HR solutions and professional serv
 About the Project :
 
 Right HR Solutions combines over 20 years of HR expertise with professional services to simplify business operations. This repository powers our web presence, showcasing tools and services for HR management and legal support, developed by Md. Zohurul Sardar, a skilled web developer and designer. Visit our live site at Right HR Solutions.
-
+https://zohurul01.github.io/right-hr-solution/
 
 About the Developer: 
 
